@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    margin-left: 70px;
+}
+
+.section{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    height: auto;
+    cursor: pointer;
+}
+
+.dress{
+    width: 100%;
+}
+
+.blogtext{
+    margin: 10px auto;
+}
+
+.blogtext h4{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(27, 25, 25);
+}
+
+.blogtext p{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+}
+
+.blogtext h5{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #009688;
+}
+
+.sub{
+    margin-top: 150px;
+}
+
+@media(0px <= width <= 450px){
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 35%;
+    }
+    .blogtext h4{
+        font-size: 15px;
+    }
+    .blogtext p{
+        font-size: 10px;
+    }
+    .blogtext h5{
+        font-size: 12px;
+    }
+}
